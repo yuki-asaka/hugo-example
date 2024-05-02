@@ -50,6 +50,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
           TZ: America/Los_Angeles
+        working-directory: ./docs
         run: |
           hugo \
             --gc \
@@ -60,13 +61,6 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
-
-      - name: Generate token
-        id: generate_token
-        uses: tibdex/github-app-token@v1
-        with:
-          app_id: ${{ secrets.APP_ID }}
-          private_key: ${{ secrets.PRIVATE_KEY }}
 
   deploy:
     environment:

@@ -10,7 +10,7 @@ This is an example site for [Hugo book theme](https://github.com/alex-shpak/hugo
     ```shell
     brew install hugo
     ```
-- [ ] Installing hugo-book (as a Hugo module)[https://github.com/alex-shpak/hugo-book/tree/master?tab=readme-ov-file#installation]
+- [ ] Installing hugo-book [as a Hugo module](https://github.com/alex-shpak/hugo-book/tree/master?tab=readme-ov-file#installation)
     ```shell
     hugo mod init github.com/repo/path
     ```

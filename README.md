@@ -12,6 +12,8 @@ This is an example site for [Hugo book theme](https://github.com/alex-shpak/hugo
     ```
 - [x] Installing hugo-book [as a Hugo module](https://github.com/alex-shpak/hugo-book/tree/master?tab=readme-ov-file#installation)
     ```shell
+    hugo new site docs
+    cd docs
     hugo mod init github.com/repo/path
     ```
 - [x] Configuring hugo-book
